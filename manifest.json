@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "name": "To-Do",
+  "description": "This is a test",
+  "icons": {
+    "16": "./icons/todo-16.png",
+    "48": "./icons/todo-64.png",
+    "128": "./icons/todo-128.png",
+    "256": "./icons/todo-256.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "./icons/todo-16.png",
+      "24": "./icons/todo-24.png",
+      "32": "./icons/todo-32.png"
+    },
+    "default_popup": "./popup/index.html"
+  },
+  "permissions": ["storage", "contextMenus", "tts"]
+}

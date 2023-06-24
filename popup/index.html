@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Popup</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../plugins/bootstrap/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="screen-extension">
+      <div class="mt-0 pt-0">
+        <form id="submit-form" class="row justify-content-between">
+          <div class="col-9 m-0 p-0">
+            <input
+              type="text"
+              class="form-control"
+              name="inputTask"
+              placeholder="Input your task"
+            />
+            <small class="text-secondary">
+              Max number of tasks
+              <span id="maxConstraintTask" class="text-dark">Undefined</span>
+              <a href="" rel="noopener noreferrer">Options</a>
+            </small>
+          </div>
+          <div class="col-3 m-0 p-0 text-end">
+            <button type="submit" class="btn btn-primary">Add</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- List of tasks -->
+      <div class="m-0 p-0">
+        <ul
+          id="list-tasks"
+          class="list-group p-0 m-0 overflow-y-scroll list-tasks"
+          style="height: 330px"
+        ></ul>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

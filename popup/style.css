@@ -1,0 +1,14 @@
+*,
+*::after,
+*::before {
+  margin: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: sans-serif;
+  width: 500px;
+  height: 500px;
+}
