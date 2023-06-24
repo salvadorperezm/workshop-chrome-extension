@@ -17,6 +17,17 @@
     },
     "default_popup": "./popup/index.html"
   },
-  "permissions": ["storage", "contextMenus", "tts"],
-  "options_page": "./options/index.html"
+  "permissions": [
+    "storage",
+    "contextMenus",
+    "tts",
+    "tabs",
+    "search",
+    "notifications"
+  ],
+  "options_page": "./options/index.html",
+  "background": {
+    "type": "module",
+    "service_worker": "./background.js"
+  }
 }
