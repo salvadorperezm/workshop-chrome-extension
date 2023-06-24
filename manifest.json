@@ -17,5 +17,6 @@
     },
     "default_popup": "./popup/index.html"
   },
-  "permissions": ["storage", "contextMenus", "tts"]
+  "permissions": ["storage", "contextMenus", "tts"],
+  "options_page": "./options/index.html"
 }

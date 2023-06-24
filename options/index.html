@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Options Todo</title>
+  <link rel="stylesheet" href="../plugins/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="d-flex justify-content-center vh-100 align-items-center">
+      <div>
+        <h1 class="mb-3">Options Todo for Tasks</h1>
+        <form id="form">
+          <div>
+            <label for="taskContraint" class="form-label">Maximum task constraint</label>
+            <input type="number" class="form-control" id="taskContraint" name="taskContraint"
+              aria-describedby="emailHelp" min="1" value="5">
+            <div id="emailHelp" class="form-text">Value of maximum task</div>
+          </div>
+          <div class="text-end">
+            <button type="submit" class="btn btn-primary">Save</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
